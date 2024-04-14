@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: Arial;
+  src: url('./utilites/fonts/');
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Roboto, Arial, sans-serif;
+  color: #232F3E;
+}
+
+
+@media screen and (max-width: 575px) {
+  .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px !important;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px !important;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px !important;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px !important;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px !important;
+    margin: auto;
+  }
+}

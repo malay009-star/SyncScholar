@@ -1,0 +1,53 @@
+.text-blue {
+  color: #3388DD;
+}
+
+.text-blue:hover{
+  color: #0F5BA5;
+}
+
+.blue {
+  background-color: #3388DD;
+}
+
+.blue:hover {
+  background-color: #0F5BA5;
+}
+
+.primary-color {
+  color: #f90;
+}
+
+.primary-color:hover {
+  color: #EC7211;
+}
+
+.bg-color {
+  background-color: #f90;
+}
+
+.bg-color:hover {
+  background-color: #EC7211;
+}
+
+.hover-color {
+  background-color: #EC7211;
+}
+
+.dark-color {
+  color: rgb(104, 112, 120);
+}
+
+.primary_shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  transition: box-shadow 0.1s ease;
+}
+
+.primary_shadow:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.10);
+}
+
+.italic-place::placeholder {
+  font-style: italic;
+  color: #757575;
+}

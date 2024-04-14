@@ -1,0 +1,39 @@
+.menu {
+  display: none;
+}
+
+.slideMenu {
+  display: none;
+}
+
+.open {
+  display: flex !important;
+}
+
+@media screen and (max-width: 768px) {
+  /* .menu {
+    display: block;
+  } */
+
+  .slideMenu {
+    display: block;
+  }
+
+  nav ul {
+    display: none !important;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px !important;
+    height: 250px;
+    top: 11%;
+    width: 40%;
+    margin: auto;
+    right: 10%;
+    /* left: 50%; */
+    border-radius: 8px;
+    z-index: 99;
+    background-color: #EC7211;
+  }
+}
